@@ -1,0 +1,23 @@
+{
+  "name": "anky",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "frog dev",
+    "serve": "tsx src/index.tsx"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1",
+    "axios": "^1.7.7",
+    "frog": "latest",
+    "fs": "^0.0.1-security",
+    "hono": "^4",
+    "path": "^0.12.7",
+    "query-string": "^9.1.0",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^3.12.2"
+  }
+}
